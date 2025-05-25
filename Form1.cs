@@ -15,6 +15,7 @@ namespace Salon_Appointment_System
         public Form1()
         {
             InitializeComponent();
+            
         }
     }
 }
