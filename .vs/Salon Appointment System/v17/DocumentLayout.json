@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lesed\\source\\repos\\Salon-Booking-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\lesed\\source\\repos\\salon-booking-system\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\lesed\\source\\repos\\salon-booking-system\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\lesed\\source\\repos\\salon-booking-system\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\lesed\\source\\repos\\salon-booking-system\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\lesed\\source\\repos\\Salon-Booking-System\\Status.cs",
               "RelativeDocumentMoniker": "Status.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServiceType.cs",
               "DocumentMoniker": "C:\\Users\\lesed\\source\\repos\\Salon-Booking-System\\ServiceType.cs",
               "RelativeDocumentMoniker": "ServiceType.cs",
