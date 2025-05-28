@@ -27,3 +27,5 @@ C:\Users\lesed\source\repos\Salon-Booking-System\obj\Debug\Salon Appointment Sys
 C:\Users\lesed\source\repos\Salon-Booking-System\obj\Debug\Salon Appointment System.csproj.CoreCompileInputs.cache
 C:\Users\lesed\source\repos\Salon-Booking-System\obj\Debug\Salon Appointment System.exe
 C:\Users\lesed\source\repos\Salon-Booking-System\obj\Debug\Salon Appointment System.pdb
+C:\Users\shelt\source\repos\General-66\Salon-Booking-System\obj\Debug\Salon_Appointment_System.Dashboard.resources
+C:\Users\shelt\source\repos\General-66\Salon-Booking-System\obj\Debug\Salon_Appointment_System.CreateAppointment.resources

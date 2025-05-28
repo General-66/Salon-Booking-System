@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\shelt\\source\\repos\\general-66\\salon-booking-system\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\receptionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:receptionist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\shelt\\source\\repos\\general-66\\salon-booking-system\\createappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|solutionrelative:createappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8424C741-3A85-49EA-A886-233B3C5F21E5}|Salon Appointment System.csproj|c:\\users\\shelt\\source\\repos\\general-66\\salon-booking-system\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:32:28.456Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceType.cs",
+              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\ServiceType.cs",
+              "RelativeDocumentMoniker": "ServiceType.cs",
+              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\ServiceType.cs",
+              "RelativeToolTip": "ServiceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:08:00.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAppointment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\CreateAppointment.cs",
+              "RelativeDocumentMoniker": "CreateAppointment.cs",
+              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\CreateAppointment.cs [Design]*",
+              "RelativeToolTip": "CreateAppointment.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:36:46.099Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -55,96 +76,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Status.cs",
-              "RelativeDocumentMoniker": "Status.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Status.cs",
-              "RelativeToolTip": "Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T16:24:32.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServiceType.cs",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\ServiceType.cs",
-              "RelativeDocumentMoniker": "ServiceType.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\ServiceType.cs",
-              "RelativeToolTip": "ServiceType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T16:23:56.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Appointment.cs",
-              "RelativeDocumentMoniker": "Appointment.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Appointment.cs",
-              "RelativeToolTip": "Appointment.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA1wBgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T16:16:54.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Receptionist.cs",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Receptionist.cs",
-              "RelativeDocumentMoniker": "Receptionist.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Receptionist.cs",
-              "RelativeToolTip": "Receptionist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAtwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T16:06:43.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Person.cs",
-              "RelativeDocumentMoniker": "Person.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Person.cs",
-              "RelativeToolTip": "Person.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAawB0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T16:00:51.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:27:26.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\shelt\\source\\repos\\General-66\\Salon-Booking-System\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:50:27.407Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

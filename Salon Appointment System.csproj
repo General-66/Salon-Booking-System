@@ -47,6 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Appointment.cs" />
+    <Compile Include="CreateAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAppointment.Designer.cs">
+      <DependentUpon>CreateAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +71,12 @@
     <Compile Include="Receptionist.cs" />
     <Compile Include="ServiceType.cs" />
     <Compile Include="Status.cs" />
+    <EmbeddedResource Include="CreateAppointment.resx">
+      <DependentUpon>CreateAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -70,6 +88,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -83,6 +102,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DASHBOARD_BG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_BG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -89,7 +89,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1283, 693);
+            this.ClientSize = new System.Drawing.Size(1332, 733);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
