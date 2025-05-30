@@ -49,7 +49,7 @@
             this.lblNew.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNew.Location = new System.Drawing.Point(37, 25);
             this.lblNew.Name = "lblNew";
-            this.lblNew.Size = new System.Drawing.Size(255, 38);
+            this.lblNew.Size = new System.Drawing.Size(402, 60);
             this.lblNew.TabIndex = 0;
             this.lblNew.Text = "New Appointment";
             // 
@@ -59,7 +59,7 @@
             this.lblClientName.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClientName.Location = new System.Drawing.Point(18, 136);
             this.lblClientName.Name = "lblClientName";
-            this.lblClientName.Size = new System.Drawing.Size(110, 23);
+            this.lblClientName.Size = new System.Drawing.Size(185, 38);
             this.lblClientName.TabIndex = 1;
             this.lblClientName.Text = "Client Name:";
             this.lblClientName.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -70,7 +70,7 @@
             this.lblService.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblService.Location = new System.Drawing.Point(59, 196);
             this.lblService.Name = "lblService";
-            this.lblService.Size = new System.Drawing.Size(69, 23);
+            this.lblService.Size = new System.Drawing.Size(117, 38);
             this.lblService.TabIndex = 2;
             this.lblService.Text = "Service:";
             this.lblService.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -81,7 +81,7 @@
             this.lblStaffMember.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStaffMember.Location = new System.Drawing.Point(9, 255);
             this.lblStaffMember.Name = "lblStaffMember";
-            this.lblStaffMember.Size = new System.Drawing.Size(119, 23);
+            this.lblStaffMember.Size = new System.Drawing.Size(199, 38);
             this.lblStaffMember.TabIndex = 3;
             this.lblStaffMember.Text = "Staff Member:";
             this.lblStaffMember.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -92,7 +92,7 @@
             this.lblDate.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.Location = new System.Drawing.Point(77, 317);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(51, 23);
+            this.lblDate.Size = new System.Drawing.Size(84, 38);
             this.lblDate.TabIndex = 4;
             this.lblDate.Text = "Date:";
             this.lblDate.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -103,7 +103,7 @@
             this.lblNotes.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotes.Location = new System.Drawing.Point(69, 386);
             this.lblNotes.Name = "lblNotes";
-            this.lblNotes.Size = new System.Drawing.Size(59, 23);
+            this.lblNotes.Size = new System.Drawing.Size(98, 38);
             this.lblNotes.TabIndex = 5;
             this.lblNotes.Text = "Notes:";
             this.lblNotes.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -127,19 +127,20 @@
             this.btnClose.TabIndex = 8;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // txtClientName
             // 
             this.txtClientName.Location = new System.Drawing.Point(151, 136);
             this.txtClientName.Name = "txtClientName";
-            this.txtClientName.Size = new System.Drawing.Size(241, 25);
+            this.txtClientName.Size = new System.Drawing.Size(241, 36);
             this.txtClientName.TabIndex = 9;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(151, 317);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(241, 25);
+            this.dateTimePicker1.Size = new System.Drawing.Size(241, 36);
             this.dateTimePicker1.TabIndex = 10;
             // 
             // cmbService
@@ -154,7 +155,7 @@
             "Massage"});
             this.cmbService.Location = new System.Drawing.Point(151, 193);
             this.cmbService.Name = "cmbService";
-            this.cmbService.Size = new System.Drawing.Size(241, 26);
+            this.cmbService.Size = new System.Drawing.Size(241, 36);
             this.cmbService.TabIndex = 11;
             // 
             // cmbStaffMember
@@ -166,7 +167,7 @@
             "Munaka"});
             this.cmbStaffMember.Location = new System.Drawing.Point(151, 253);
             this.cmbStaffMember.Name = "cmbStaffMember";
-            this.cmbStaffMember.Size = new System.Drawing.Size(241, 26);
+            this.cmbStaffMember.Size = new System.Drawing.Size(241, 36);
             this.cmbStaffMember.TabIndex = 12;
             // 
             // textBox2
@@ -179,9 +180,8 @@
             // 
             // CreateAppointment
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Salon_Appointment_System.Properties.Resources._BG;
             this.ClientSize = new System.Drawing.Size(742, 504);
             this.ControlBox = false;
             this.Controls.Add(this.textBox2);

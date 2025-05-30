@@ -16,5 +16,16 @@ namespace Salon_Appointment_System
         {
             InitializeComponent();
         }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            CreateAppointment newAppointment = new CreateAppointment();
+            newAppointment.Show();
+            this.Hide();
+            if (newAppointment == null) 
+            {
+                this.Show();
+            }
+        }
     }
 }

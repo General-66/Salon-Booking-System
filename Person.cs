@@ -16,7 +16,7 @@ namespace Salon_Appointment_System
 
         public Person(string firstName, string lastName, string username, string password, string staffID) 
         {
-            int staffId = 0;
+            int staffId = 0; //Edit assignment of  
             FirstName = firstName;
             LastName = lastName;
             Username = username;

@@ -15,7 +15,21 @@ namespace Salon_Appointment_System
         public LoginForm()
         {
             InitializeComponent();
-            
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(txtUsername.Text == "CBSLogin" && txtPassword.Text == "ChromaBeautySalon")
+            {
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            //Make log out button in dashboard
         }
     }
 }
