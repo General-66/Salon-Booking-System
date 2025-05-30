@@ -37,10 +37,10 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.txtClientName = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.cmbService = new System.Windows.Forms.ComboBox();
             this.cmbStaffMember = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNotes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblNew
@@ -117,6 +117,7 @@
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 
@@ -136,12 +137,12 @@
             this.txtClientName.Size = new System.Drawing.Size(241, 36);
             this.txtClientName.TabIndex = 9;
             // 
-            // dateTimePicker1
+            // dtpDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(151, 317);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(241, 36);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dtpDate.Location = new System.Drawing.Point(151, 317);
+            this.dtpDate.Name = "dtpDate";
+            this.dtpDate.Size = new System.Drawing.Size(241, 36);
+            this.dtpDate.TabIndex = 10;
             // 
             // cmbService
             // 
@@ -170,13 +171,13 @@
             this.cmbStaffMember.Size = new System.Drawing.Size(241, 36);
             this.cmbStaffMember.TabIndex = 12;
             // 
-            // textBox2
+            // txtNotes
             // 
-            this.textBox2.Location = new System.Drawing.Point(151, 386);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 74);
-            this.textBox2.TabIndex = 13;
+            this.txtNotes.Location = new System.Drawing.Point(151, 386);
+            this.txtNotes.Multiline = true;
+            this.txtNotes.Name = "txtNotes";
+            this.txtNotes.Size = new System.Drawing.Size(241, 74);
+            this.txtNotes.TabIndex = 13;
             // 
             // CreateAppointment
             // 
@@ -184,10 +185,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 504);
             this.ControlBox = false;
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.cmbStaffMember);
             this.Controls.Add(this.cmbService);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpDate);
             this.Controls.Add(this.txtClientName);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
@@ -217,9 +218,9 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.TextBox txtClientName;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.ComboBox cmbService;
         private System.Windows.Forms.ComboBox cmbStaffMember;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNotes;
     }
 }

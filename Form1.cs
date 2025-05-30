@@ -19,7 +19,8 @@ namespace Salon_Appointment_System
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text == "CBSLogin" && txtPassword.Text == "ChromaBeautySalon")
+            Receptionist receptionist = new Receptionist("Rachel", "Marais", "CBSLogin", "ChromaBeautySalon", "5678");
+            if (txtUsername.Text == receptionist.Username && txtPassword.Text == receptionist.Password)
             {
                 Dashboard dashboard = new Dashboard();
                 dashboard.Show();

@@ -15,6 +15,7 @@ namespace Salon_Appointment_System
         public Dashboard()
         {
             InitializeComponent();
+            //lstAppointments.Items.Add();
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
